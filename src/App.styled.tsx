@@ -1,9 +1,10 @@
 import styled from '@emotion/styled';
 import { Box } from '@mui/material';
-import { colors } from './constants/colors';
 
 export const AppContainer = styled(Box)(() => ({
-  background: colors.lightGray,
+  background: `url(/monsterattacking.webp) no-repeat center center`,
+  backgroundSize: 'cover',
+  backgroundColor: 'white',
   width: '100%',
   height: 'calc(100vh - 69px)',
   maxHeight: '100vh',
