@@ -14,7 +14,7 @@ export const BattleSection = styled.section(() => ({
   display: 'flex',
   alignItems: 'center',
   gap: '25px',
-}));
+})); 
 
 export const StartBattleButton = styled(Button)(({ disabled }) => ({
   background: disabled ? colors.lightGreen : colors.darkGreen,
