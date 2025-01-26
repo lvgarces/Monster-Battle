@@ -54,5 +54,3 @@ server.use(router);
 server.listen(3001, () => {
   console.log('JSON Server is running');
 });
-
-// Vercel serverless functions don't need the `.listen()` part
